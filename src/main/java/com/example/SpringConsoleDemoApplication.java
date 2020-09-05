@@ -19,7 +19,7 @@ public class SpringConsoleDemoApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		service.registrar("Jair");
+		service.registrar("Registro de usuario, utilizando inyección de dependencias en la capa Servicio");
 	}
 
 }
